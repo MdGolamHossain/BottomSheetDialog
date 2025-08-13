@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_400sdp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bottom_sheet_cv"
+    >
+
+        <View
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:background="@drawable/view_line"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EnterCode"
+            android:fontFamily="@font/semi_bold"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/EnterCode1"
+            android:fontFamily="@font/regular"
+            android:textSize="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/textSecondary"
+
+            />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/ripl_btn"
+            android:elevation="@dimen/_5sdp"
+            android:outlineSpotShadowColor="@color/cardBackgroundColor"
+            android:textStyle="bold"
+            android:shadowColor="@color/textSecondary"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:fontFamily="@font/semi_bold"
+            android:textColor="@color/backgroundColor"
+            android:textSize="@dimen/_12sdp"
+            android:translationZ="@dimen/_5sdp"
+            />
+
+</LinearLayout>
